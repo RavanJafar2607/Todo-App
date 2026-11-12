@@ -28,7 +28,7 @@
   gap: 10px;
 }
 .deleteBtns button {
-  background-color: var(primary);
+  background-color: var(--primary);
   border: 1px solid var(--border);
   width: 50px;
   font-size: 13px;
