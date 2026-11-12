@@ -1,0 +1,32 @@
+@keyframes flashing-blinking {
+  50% {
+    transform: scale(1.1);
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1.1;
+  }
+}
+.emptyContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  font-weight: 800;
+  text-transform: uppercase;
+  animation: flashing-blinking 2s infinite;
+}
+.emptyMessage {
+  background-color: var(--primary);
+  padding: 10px;
+  border-radius: 10px;
+  color: var(--text-primary);
+  box-shadow: 0px 7px 10px var(--shadow);
+}
+.todos {
+  max-height: 400px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  padding-right: 5px;
+}

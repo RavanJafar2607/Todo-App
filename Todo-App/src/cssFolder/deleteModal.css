@@ -1,0 +1,36 @@
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 25;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.deleteModal {
+  width: 240px;
+  height: 50px;
+  background-color: var(--bg-card);
+  border-radius: 10px;
+  box-shadow: 0px 6px 4px var(--shadow);
+  font-size: 13px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.deleteBtns {
+  display: flex;
+  justify-content: end;
+  gap: 10px;
+}
+.deleteBtns button {
+  background-color: var(primary);
+  border: 1px solid var(--border);
+  width: 50px;
+  font-size: 13px;
+  border-radius: 5px;
+}

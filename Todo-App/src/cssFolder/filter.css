@@ -1,0 +1,17 @@
+.filteredBtnContainer {
+  display: flex;
+  gap: 20px;
+  width: 100%;
+}
+.filteredBtnContainer button {
+  width: 100px;
+  padding: 5px;
+  border-radius: 10px;
+  font-size: 13px;
+  font-weight: 700;
+  border: 2px solid transparent;
+  box-shadow: 0px 6px 4px var(--shadow);
+}
+.filteredBtnContainer button.active {
+  border: 2px solid var(--border);
+}

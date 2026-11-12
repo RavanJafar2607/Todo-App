@@ -1,0 +1,23 @@
+.ClearContainer {
+  display: flex;
+  gap: 10px;
+  justify-content: end;
+}
+@keyframes buttonD {
+  0% {
+    transform: translateY(30px);
+    opacity: 0;
+  }
+  100% {
+    opacity: 9;
+    transform: translateY(0px);
+  }
+}
+
+.ClearContainer button {
+  padding: 5px;
+  width: 115px;
+  border-radius: 10px;
+  border: 1px solid var(--border);
+  animation: buttonD 3s ease forwards;
+}

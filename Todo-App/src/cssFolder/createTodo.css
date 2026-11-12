@@ -1,0 +1,71 @@
+.createTodoContainer {
+  display: flex;
+  gap: 5px;
+  padding: 10px;
+  width: 100%;
+  border-radius: 10px;
+  background-color: var(--bg-card);
+  border: 1px solid var(--border);
+  box-shadow: 0 4px 6px var(--shadow);
+}
+.creatorInpBtn input {
+  display: flex;
+  gap: 5px;
+  width: 100%;
+  border-radius: 10px;
+  padding: 2px;
+  outline: none;
+  border: 1px solid transparent;
+  background-color: var(--bg-main);
+  color: var(--text-primary);
+  text-align: center;
+  transition: border ease 0.4s;
+}
+input:hover {
+  border: 1px solid var(--primary-hover);
+}
+.priortyBtnDateContainer {
+  display: flex;
+  gap: 10px;
+  background-color: var(--bg-card);
+  border: 1px solid var(--border);
+  box-shadow: 0 4px 6px var(--shadow);
+}
+.priortyBtnDateContainer select,
+input {
+  font-size: 14px / 0.875rem;
+  font-weight: 500;
+  border-radius: 20px;
+  border: 1px solid transparent;
+  background-color: var(--bg-main);
+  color: var(--text-primary);
+}
+.priortyBtnDateContainer button {
+  width: 50px;
+  border: transparent;
+  border-radius: 5px;
+  padding: 2px;
+  display: flex;
+  justify-content: center;
+  font-size: 14px / 0.875rem;
+  font-weight: 500;
+}
+
+.success {
+  background-color: var(--toast-success-bg);
+  color: var(--toast-success-text);
+  border: var(--toast-success-border);
+  font-size: 18px;
+  width: 100%;
+  border-radius: 5px;
+  font-size: 18px;
+}
+.error {
+  padding: 10px;
+  background-color: var(--toast-error-bg);
+  color: var(--toast-error-text);
+  border: 1px solid var(--toast-error-border);
+  width: 100%;
+  border-radius: 5px;
+  font-size: 18px;
+}
